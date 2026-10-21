@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Implementation Consistency"
+  short_description: "Audit UI specs against code, tokens and screenshots"
+  default_prompt: "Use $design-implementation-consistency to audit the supplied UI design and implementation with evidence, without changing files."

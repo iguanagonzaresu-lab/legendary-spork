@@ -1,0 +1,15 @@
+.panel {
+  max-width: 960px;
+  color: #0f172a;
+  border: 1px solid #d5dde3;
+}
+.title { font-weight: 600; }
+.actions {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.primary { border-radius: 6px; }
+@media (min-width: 768px) {
+  .actions { flex-direction: row; }
+}
